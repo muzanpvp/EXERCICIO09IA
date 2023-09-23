@@ -121,7 +121,7 @@ print(f'Acurácia: {modelo.score(normalized_attributes, classes)*100}')
 
 pred = modelo.predict(x_test)
 
-print(f'esperado: {y_test}, resultado: {pred}')
+print(f'Esperado: {y_test}, Resultado: {pred}')
 
 """Mostra a porcentagem de acertos"""
 
